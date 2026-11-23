@@ -68,6 +68,24 @@ const { meta, articles } = await response.json();
 console.log(meta.generated_at, articles.length);
 ```
 
+## Documentation
+
+- [Dataset schema](docs/SCHEMA.md)
+- [Usage examples](docs/USAGE.md)
+- [Python example](examples/python.py)
+- [JavaScript example](examples/javascript.mjs)
+
+## Guides
+
+WFile's evergreen public-information guides are available in six languages:
+
+- [English](https://wfile.org/en/guides/)
+- [Japanese](https://wfile.org/ja/guides/)
+- [Korean](https://wfile.org/ko/guides/)
+- [Thai](https://wfile.org/th/guides/)
+- [Vietnamese](https://wfile.org/vi/guides/)
+- [Indonesian](https://wfile.org/id/guides/)
+
 ## Methodology
 
 WFile summarizes public information published by government bodies and public institutions. Each record links to the original source. The dataset is an index of what WFile published; it is not a substitute for the source document and does not imply endorsement by the source organization.
