@@ -1,0 +1,53 @@
+name: Update dataset
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch published dataset
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          for file in articles.csv articles.json sources.json stats.json; do
+            curl --fail --silent --show-error --location --retry 3 --retry-all-errors \
+              "https://wfile.org/data/$file" \
+              -o "data/$file"
+          done
+          test "$(wc -l < data/articles.csv)" -gt 1
+          node -e '
+            const fs = require("node:fs");
+            for (const file of ["articles.json", "sources.json", "stats.json"]) {
+              JSON.parse(fs.readFileSync("data/" + file, "utf8"));
+            }
+            const stats = JSON.parse(fs.readFileSync("data/stats.json", "utf8"));
+            if (!stats.published_articles) throw new Error("empty dataset");
+            console.log("stories:", stats.stories, "language versions:", stats.published_articles);
+          '
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+          git add data
+          if git diff --cached --quiet; then
+            echo "Dataset is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
