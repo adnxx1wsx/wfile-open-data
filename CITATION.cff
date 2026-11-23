@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "WFile Asia Public Notice Dataset"
+version: 1.0.0
+date-released: "2026-11-23"
+license: CC-BY-4.0
+url: "https://wfile.org/data/"
+repository-code: "https://github.com/adnxx1wsx/wfile-open-data"
+authors:
+  - name: "WFile Editorial Team"
+    website: "https://wfile.org"
+abstract: >-
+  Article metadata for multilingual public-interest coverage from Japan, Korea,
+  Thailand, Vietnam, and Indonesia, published by WFile in Japanese, Korean,
+  Thai, Vietnamese, Indonesian, and English. The dataset contains article
+  titles, summaries, canonical URLs, publication dates, topics, and links to
+  the original public sources. Full article text is not included.
+keywords:
+  - multilingual news
+  - Asia
+  - public information
+  - Japan
+  - Korea
+  - Thailand
+  - Vietnam
+  - Indonesia
+  - open data
