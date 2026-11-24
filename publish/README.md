@@ -2,6 +2,12 @@
 
 Prepared on 2026-11-24 from the live WFile open-data snapshot.
 
+Published:
+
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.24503671
+- Kaggle: https://www.kaggle.com/datasets/eranewsnew/wfile-asia-public-notice-dataset
+- Hugging Face: https://huggingface.co/datasets/beijizhidayww/wfile-asia-public-notice-dataset
+
 ## Snapshot
 
 - `data/articles.csv` — 2,262 article versions
