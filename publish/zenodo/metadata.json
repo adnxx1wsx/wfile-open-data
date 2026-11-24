@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "WFile Asia Public Notice Dataset",
+    "upload_type": "dataset",
+    "description": "Article metadata for WFile's multilingual public-interest coverage of Japan, Korea, Thailand, Vietnam, and Indonesia. WFile publishes in Japanese, Korean, Thai, Vietnamese, Indonesian, and English. The dataset includes article titles, summaries, canonical URLs, publication dates, topic tags, source links, and aggregated statistics. Full article text is not included. Metadata is released under CC BY 4.0; article text and source material remain subject to the original publishers' terms.",
+    "creators": [
+      {
+        "name": "WFile Editorial Team",
+        "affiliation": "WFile"
+      }
+    ],
+    "publication_date": "2026-11-24",
+    "version": "1.1.0",
+    "license": "cc-by-4.0",
+    "language": "eng",
+    "keywords": [
+      "multilingual news",
+      "Asia",
+      "public information",
+      "Japan",
+      "Korea",
+      "Thailand",
+      "Vietnam",
+      "Indonesia",
+      "open data",
+      "news metadata"
+    ],
+    "related_identifiers": [
+      {
+        "relation": "isDocumentedBy",
+        "identifier": "https://wfile.org/data/",
+        "scheme": "url"
+      },
+      {
+        "relation": "isDocumentedBy",
+        "identifier": "https://github.com/adnxx1wsx/wfile-open-data",
+        "scheme": "url"
+      }
+    ],
+    "notes": "Metadata only. No article body text, images, or original source material is included. WFile: https://wfile.org"
+  }
+}

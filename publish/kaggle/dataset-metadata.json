@@ -1,0 +1,12 @@
+{
+  "title": "WFile Asia Public Notice Dataset",
+  "id": "adnxx1wsx/wfile-asia-public-notice-dataset",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "subtitle": "Multilingual article metadata from Japan, Korea, Thailand, Vietnam, Indonesia, and global/Asia coverage",
+  "description": "WFile publishes public-interest news in Japanese, Korean, Thai, Vietnamese, Indonesian, and English. This dataset contains article metadata only: article ID, language, canonical URL, title, summary, section, region, publication time, source title and URL, author, and topic tags. Full article text and source material are not included. Metadata is licensed CC BY 4.0; article text and source material remain subject to the original publishers' terms. Homepage: https://wfile.org/data/ Repository: https://github.com/adnxx1wsx/wfile-open-data",
+  "isPrivate": false
+}
