@@ -2,10 +2,10 @@
   "meta": {
     "name": "WFile Public Sources",
     "site": "https://wfile.org",
-    "generated_at": "2026-11-23T07:23:24.788Z",
+    "generated_at": "2026-11-24T10:12:03.318Z",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "count": 55
+    "count": 67
   },
   "sources": [
     {
@@ -31,6 +31,50 @@
       "enabled": 1
     },
     {
+      "id": 59,
+      "name": "Al Jazeera（热点预设）",
+      "site_url": "https://www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "society",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 56,
+      "name": "BBC News（热点预设）",
+      "site_url": "https://www.bbc.com/news",
+      "url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "society",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 57,
+      "name": "BBC Sport（热点预设）",
+      "site_url": "https://www.bbc.com/sport",
+      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "sports",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 66,
+      "name": "Bangkok Post（热点预设）",
+      "site_url": "https://www.bangkokpost.com",
+      "url": "https://www.bangkokpost.com/rss/data/topstories.xml",
+      "region": "泰国",
+      "region_code": "TH",
+      "category": "society",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
       "id": 49,
       "name": "Báo Chính phủ（预设）",
       "site_url": "https://baochinhphu.vn",
@@ -39,6 +83,17 @@
       "region_code": "VN",
       "category": "politics",
       "lang": "vi",
+      "enabled": 1
+    },
+    {
+      "id": 65,
+      "name": "CNA（热点预设）",
+      "site_url": "https://www.channelnewsasia.com",
+      "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
+      "region": "亚洲",
+      "region_code": "ASIA",
+      "category": "society",
+      "lang": "en",
       "enabled": 1
     },
     {
@@ -53,6 +108,17 @@
       "enabled": 1
     },
     {
+      "id": 64,
+      "name": "SCMP（热点预设）",
+      "site_url": "https://www.scmp.com",
+      "url": "https://www.scmp.com/rss/91/feed",
+      "region": "亚洲",
+      "region_code": "ASIA",
+      "category": "society",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
       "id": 48,
       "name": "TAT Newsroom（预设）",
       "site_url": "https://www.tatnews.org",
@@ -60,6 +126,72 @@
       "region": "泰国",
       "region_code": "TH",
       "category": "culture",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 61,
+      "name": "TechCrunch（热点预设）",
+      "site_url": "https://techcrunch.com",
+      "url": "https://techcrunch.com/feed/",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "tech",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 58,
+      "name": "The Guardian World（热点预设）",
+      "site_url": "https://www.theguardian.com/world",
+      "url": "https://www.theguardian.com/world/rss",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "society",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 63,
+      "name": "The Japan Times（热点预设）",
+      "site_url": "https://www.japantimes.co.jp",
+      "url": "https://www.japantimes.co.jp/feed/",
+      "region": "日本",
+      "region_code": "JP",
+      "category": "society",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 62,
+      "name": "The Verge（热点预设）",
+      "site_url": "https://www.theverge.com",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "tech",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 60,
+      "name": "Variety（热点预设）",
+      "site_url": "https://variety.com",
+      "url": "https://variety.com/feed/",
+      "region": "全球",
+      "region_code": "GLOBAL",
+      "category": "culture",
+      "lang": "en",
+      "enabled": 1
+    },
+    {
+      "id": 67,
+      "name": "VnExpress International（热点预设）",
+      "site_url": "https://e.vnexpress.net",
+      "url": "https://e.vnexpress.net/rss/news.rss",
+      "region": "越南",
+      "region_code": "VN",
+      "category": "society",
       "lang": "en",
       "enabled": 1
     },
