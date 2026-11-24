@@ -79,3 +79,6 @@ huggingface-cli upload \
 ## Credentials
 
 The current environment does not contain Zenodo, Kaggle, or Hugging Face tokens. Do not commit `.env` or tokens to this repository.
+
+- Kaggle notebook: https://www.kaggle.com/code/eranewsnew/wfile-asia-public-notice-dataset-explorer
+- Hugging Face Space: https://huggingface.co/spaces/beijizhidayww/wfile-asia-dataset-explorer

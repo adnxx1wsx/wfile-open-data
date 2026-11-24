@@ -1,3 +1,4 @@
 publish/kaggle/data/
 publish/huggingface/data/
+publish/hf-space-static/data/
 publish/*.zip

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WFile Asia Dataset Explorer</title>
+  <meta name="description" content="Browse the WFile Asia Public Notice Dataset: multilingual public-information article metadata from Japan, Korea, Thailand, Vietnam, Indonesia, and Asia.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">OPEN DATA · MULTILINGUAL ASIA</p>
+    <h1>WFile Asia Dataset Explorer</h1>
+    <p class="lede">Browse public-information article metadata from Japan, Korea, Thailand, Vietnam, Indonesia, and broader Asia/global coverage.</p>
+    <div class="hero-links">
+      <a href="https://wfile.org">wfile.org</a>
+      <a href="https://doi.org/10.5281/zenodo.24503671">Zenodo DOI</a>
+      <a href="https://huggingface.co/datasets/beijizhidayww/wfile-asia-public-notice-dataset">Dataset card</a>
+      <a href="https://github.com/adnxx1wsx/wfile-open-data">GitHub</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="stats" id="stats" aria-live="polite"></section>
+
+    <section class="panel">
+      <div class="filters">
+        <label>Search <input id="q" type="search" placeholder="Osaka, election, transport…" autocomplete="off"></label>
+        <label>Language <select id="lang"><option value="All">All</option></select></label>
+        <label>Region <select id="region"><option value="All">All</option></select></label>
+        <label>Rows <select id="limit"><option>30</option><option>60</option><option>100</option></select></label>
+      </div>
+      <p class="meta" id="meta">Loading dataset…</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Language</th><th>Region</th><th>Section</th><th>Title</th><th>Published</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="note">Metadata only. Article text and source material remain subject to the original publishers' terms. Dataset licensed CC BY 4.0.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
