@@ -43,3 +43,7 @@ Dataset metadata is released under **CC BY 4.0**. Attribution: WFile Editorial T
 - Website: https://wfile.org
 - Dataset page: https://wfile.org/data/
 - GitHub mirror: https://github.com/adnxx1wsx/wfile-open-data
+
+## DOI
+
+Concept DOI: https://doi.org/10.5281/zenodo.24503671

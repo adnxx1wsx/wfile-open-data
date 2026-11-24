@@ -103,8 +103,8 @@ That license does not cover full article text, images, logos, or material owned 
 If you use the dataset, please cite:
 
 ```text
-WFile Editorial Team. (2026). WFile Asia Public Notice Dataset (Version 1.0.0)
-[Data set]. https://wfile.org/data/
+WFile Editorial Team. (2026). WFile Asia Public Notice Dataset (Version 1.1.0)
+[Data set]. https://doi.org/10.5281/zenodo.24503671
 ```
 
 BibTeX:
@@ -114,14 +114,14 @@ BibTeX:
   author    = {{WFile Editorial Team}},
   title     = {WFile Asia Public Notice Dataset},
   year      = {2026},
-  version   = {1.0.0},
+  version   = {1.1.0},
   publisher = {WFile},
   url       = {https://wfile.org/data/},
   license   = {CC BY 4.0}
 }
 ```
 
-A DOI will be added after the first Zenodo release. The concept DOI will remain stable across versions.
+DOI: https://doi.org/10.5281/zenodo.24503671 (concept DOI, always points to the latest version).
 
 ## Repository maintenance
 
